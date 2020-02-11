@@ -1,3 +1,5 @@
+# Rails Forms & Associations Practice
+
 ## Part 1: Conceptual questions
 1. What’s the difference between form_tag and form_for. When would we use each?
 2. Why do we use strong_params?
