@@ -3,8 +3,8 @@
 ## Part 1: Conceptual questions
 1. What's the benefit of using partials, and why are locals a supplmental feature Rails give us?
 2. In an MVC framework, where should the logic associated to database queries be placed? (M, V, or C?) 
- ...2a. Order M, V, and C starting with where we should place most App logic to where we should place least App logic. 
- ...2b. What type of logic/responsibility is permissible in each?
+...2a. Order M, V, and C starting with where we should place most App logic to where we should place least App logic. 
+...2b. What type of logic/responsibility is permissible in each?
 
 ## Part 2: Boat Rental App
 * In the previous challenge you built a form that allows the manager to record a new rental, associating an existing boat and a new or existing customer
