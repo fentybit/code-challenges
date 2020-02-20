@@ -11,7 +11,7 @@
 * Boats have many Customers through Rentals
 * Customers have many boats through Rentals
 
-### PART 2A - Build rental form - associate rental to customer and boat
+### PART 2A - Build some helper methods
 * Using a partial with locals, build a simplistic index page for Boats that displays a list of Rental info for each Boat
 * Build a view helper method that displays the rental date in the format: "Day_of_Week, Month Day, Year" ("Monday, January 3, 2019") and use this on the Boat index page
 * Build a custom query method that returns only the rentals taking place in the future (after current datetime) and use this on the Boat index page
