@@ -10,5 +10,5 @@
 * Visit this website: https://en.wikipedia.org/wiki/Algorithmic_art
 * Using the developer console, accomplish the following:
 1. Change the background color of the Contents div to grey WHEN THE USER CLICKS THE DIV
-2. Create an <li> with the text "Bonus Chapter" and Add this `<li>` as the last item in the Contents div WHEN THE USER PRESSES THE "l" KEY
+2. Create an `<li>` with the text "Bonus Chapter" and Add this `<li>` as the last item in the Contents div WHEN THE USER PRESSES THE "l" KEY
 4. Console log ("user has arrived at site" when the DOM first loads)
