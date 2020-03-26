@@ -11,6 +11,5 @@
 * Using the developer console, accomplish the following:
 1. Change the background color of the Contents div to grey WHEN THE USER CLICKS THE DIV
 2. Create an `<li>` with the text "Bonus Chapter" and Add this `<li>` as the last item in the Contents div WHEN THE USER PRESSES THE "l" KEY
-4. Console log "user has arrived at site" when the DOM first loads
-5. 
+3. Console log "user has arrived at site" when the DOM first loads
 * One of these is NOT [easily] accomplishable. Which one? Why?
