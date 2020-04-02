@@ -14,4 +14,4 @@ and a standard index.html that loads the index.js
 
 * Add javascript so that - on page load - fetch the images - parse the response as json - add image elements to the DOM for each image in the array
 
-* BONUS: When user scrolls up on page, change all <p> tags to lightblue. When user scrolls down, change all <p> tags to pink.
+* BONUS: When user scrolls up on page, resize images to 50% of their original size. When user scrolls down, resize images to 200% of their original size.
