@@ -14,7 +14,7 @@
 5. Build a higher order function that takes in any of the above functions as a callback, a number, and any other necessary optional arguments, and returns a *function* which invokes the callback with the arguments
 * Test these functions out in existing or new api call responses
 
-## BONUS: encapsulating this new functionality into a module
+## BONUS: encapsulate this new functionality using the module pattern
 * We know functions are just objects. Group the above functions you wrote into a module-like object.
 1. Create an object with the property names equal to the function names and the values equal to an *anonymous* function
 2. Wrap this object inside an immediately invoked function expression (return the object in the body of the function)
