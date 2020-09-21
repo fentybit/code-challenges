@@ -9,7 +9,7 @@
 6. What 2 types of methods and 2 types of variables do we use in OO Ruby?
 7. What is `self`?
 
-## Part 2: Coding Challenge - Building
+## Part 2: Coding Challenge - Building a Real Estate App
 * Your friend asked you to build them a real estate app because they're really tired of using Zillow. Your first step is to do something called "domain modeling," which means taking the real world concepts involved in real estate and translating them into the wonderful world of object orientation! After considering what objects you will need, you decide to start with the Listing object, which will represent all real estate listings your app will help its user find.
 1. Build a Listing class.
 2. Build a method that creates new Listing instances. Listings should be created with a location, price, and status. The default status should be `"for sale"`.
