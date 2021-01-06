@@ -5,16 +5,20 @@
 2. Why do we use strong_params?
 3. What is a partial and how does it improve our code?
 
-## Part 2: Build a boat rental app to be used by manager of a rental shop
-* Boats have many Customers through Rentals
+## Part 2: Expand and refactor your boat rental app to include some assotiations
+* Rental belongs to Boat
+* Boat has many Rentals
+* Rental belongs to Customer
+* Customer has many Rentals
+* Boat has many Customers through Rentals
 * Customer has many boats through Rentals
 
-### PART 2A - Build rental form - associate rental to customer and boat
+### PART 2A - Build new rental form - associate rental to customer and boat
 * This Form should allow you to choose an EXISTING boat and create a NEW customer
-* Make this form a partial so that it can be used to edit the Rental also
-* Prove the form works without making any views to display the data. Instead, use the Rails Console and Pry
-*  Bonus: Add server validations and display them in form
+* Bonus: Make this form a partial so that it can be used to edit the Rental also
+* Bonus: Add validation errors to the form
 
-### PART 2B (IF TIME) - Build a rental index page that lists each rental’s boat and customer
+### PART 2B (IF TIME) - Build additional views
+* Build a rental index page that lists each rental’s boat and customer
 * Link to each boat show page from the rentals index page
-* Build a boat show page that lists all the associated rentals
+* Build a boat show page that lists all the boat's associated rentals
