@@ -2,12 +2,12 @@ _Code Challenges for weekly Cohort Meetings_
 
 # Git Contribution Guide
 
-## First contribution:
+## First contribution (whoever does this step will "own" the repository):
 
-1. Fork this repository
+1. Create a new repository with a name for your Pod Group
 2. Clone it locally
 3. Set your remote upstream: 
-`git remote add upstream git@github.com:allisonkadel/foxes.git`
+`git remote add upstream git@github.com:<github_username>/<repo_name>.git`
 
 ## All Contributions:
 
