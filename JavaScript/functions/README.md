@@ -2,8 +2,26 @@
 
 ## Part 1: Conceptual questions
 1. What do we mean when we say functions are first-class objects?
+ # JavaScript Functions
+
+## Part 1: Conceptual questions
+1. What do we mean when we say functions are first-class objects?
+    JS functions can stored either in variable or arrays. 
+    JS can also return function from function.
+    JS function can be passed as an argument. 
+
 2. What is function scope and how does the scope chain work?
+    In the block of a function, you can always access any scope chain reference outside of the scope block. 
+    You can only refer to its outside lexical environment for the scope block's execution context. 
+
 3. What is pass-by-value vs pass-by-reference and which rule applies to objects?
+    pass-by-value, duplicate of memory.
+    a = 3;
+    b = a;
+
+    pass-by-reference, same address in memory, including objects.
+    c = { wayne: "new orleans" };
+    d = c;
 
 ## Part 2: Coding Challenge - Build some Functions
 * If you built a Plant API for your last challenge, copy those files to this directory and edit the index.js file. If not,  add the seeds from this repository (https://github.com/allisonkadel/code-challenges/tree/master/JavaScript/building-apis) and create an API with json-server (https://github.com/typicode/json-server). Then create a new index.js file.
